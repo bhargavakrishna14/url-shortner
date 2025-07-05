@@ -9,7 +9,6 @@ This is a simple backend application that shortens long URLs and allows decoding
 - Encode long URLs into short, unique links
 - Decode shortened URLs back to their original form
 - Stateless and RESTful API design
-- Easy to test using Postman
 
 ---
 
@@ -33,7 +32,7 @@ Make sure the application is running at:
 #### Sample Response:
 ```json
 {
-  "shortenedUrl": "http://localhost:8080/abc123"
+    "encoded": "http://short.est/k!KTQ"
 }
 
 
@@ -46,11 +45,11 @@ Make sure the application is running at:
 #### Request Body (JSON):
 ```json
 {
-  "shortenedUrl": "http://localhost:8080/abc123"
+    "encoded": "http://short.est/k!KTQ"
 }
 
 #### Sample Response:
 ```json
 {
-  "url": "https://www.youtube.com/feed/subscriptions"
+    "url": "https://www.youtube.com/feed/subscriptions"
 }
