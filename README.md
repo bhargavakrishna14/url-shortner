@@ -35,7 +35,7 @@ Make sure the application is running at:
 {
     "encoded": "http://short.est/k!KTQ"
 }
-
+```
 
 ### 🔐 1. Decode a URL
 
@@ -48,9 +48,22 @@ Make sure the application is running at:
 {
     "encoded": "http://short.est/k!KTQ"
 }
+```
 
 #### Sample Response:
 ```json
 {
     "url": "https://www.youtube.com/feed/subscriptions"
 }
+```
+---
+
+## 📦 Tech Stack
+
+- Java 17  
+- Spring Boot  
+- Spring Web  
+- Lombok  
+- Maven  
+
+---
