@@ -28,6 +28,7 @@ Make sure the application is running at:
 {
   "url": "https://www.youtube.com/feed/subscriptions"
 }
+```
 
 #### Sample Response:
 ```json
